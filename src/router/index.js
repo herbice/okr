@@ -6,6 +6,8 @@ import doubanVue from '@/components/day01/doubanVue'
 import elementVue from '@/elementVue'
 import mainMenu from '@/components/mainMenu'
 import projectList from '@/components/projectList'
+import test from '@/components/test'
+import projectDetails from '@/components/projectDetails'
 
 Vue.use(Router)
 export default new Router({
@@ -42,6 +44,18 @@ export default new Router({
       name: 'projectList',
       component: projectList
     },
+    {
+      path: '/test',
+      name: 'test',
+      component: test
+    },
+    {
+      path: '/projectDetails',
+      name: 'projectDetails',
+      component: projectDetails
+    }
+
+
 
 
 

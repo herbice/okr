@@ -7,8 +7,8 @@
 
 <script type="text/javascript">
 export default {
-  data () {
-    name:'firstcomponent'
+  name:'firstcomponent',
+  data () {  
     return {
       author: "LJ"
     }

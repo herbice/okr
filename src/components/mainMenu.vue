@@ -6,6 +6,9 @@
     <h1>
         <router-link to="projectDetail">课题详情页</router-link>
     </h1>
+    <h1>
+        <router-link to="test">测试</router-link>
+    </h1>
   </div>
 </template>
 

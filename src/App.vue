@@ -4,14 +4,10 @@
         <h1> Hello App!</h1>
 
       -->
-<router-view></router-view>
-
+    <router-view></router-view> 
   </div>
 </template>
-
 <script>
-import elementVue from './elementVue'
-import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'App'
 }
